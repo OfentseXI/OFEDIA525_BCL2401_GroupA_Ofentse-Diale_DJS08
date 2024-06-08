@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 /**
  * Challenge:
  * Bootstrap the VanLife project by creating the first 2 routes:
