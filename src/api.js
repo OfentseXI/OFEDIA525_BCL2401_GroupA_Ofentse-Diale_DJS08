@@ -11,13 +11,14 @@ import {
 } from "firebase/firestore/lite"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD_k3v3HK3tKEqhlqFHPkwogW7PqEqhGhk",
-    authDomain: "vanlife-a1af5.firebaseapp.com",
-    projectId: "vanlife-a1af5",
-    storageBucket: "vanlife-a1af5.appspot.com",
-    messagingSenderId: "803007000356",
-    appId: "1:803007000356:web:446cd3a1ca406839258db1"
-};
+    apiKey: "AIzaSyACDAxkOdaGxISw4Io4iFolYc7bSXHACJY",
+    authDomain: "vanlife-52e44.firebaseapp.com",
+    projectId: "vanlife-52e44",
+    storageBucket: "vanlife-52e44.appspot.com",
+    messagingSenderId: "832751507835",
+    appId: "1:832751507835:web:6a07ae9bca358c569fc5de",
+    measurementId: "G-NF85E9HEC9"
+  };
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore(app)
